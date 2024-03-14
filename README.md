@@ -2,7 +2,7 @@
 
 amosZohar - X
 </br>
-benda - -> Alon/Margol check me(idan) before send.
+benda - V -> Alon/Margol check me(idan) before send.
 </br>
 davidArnfled - X
 </br>
