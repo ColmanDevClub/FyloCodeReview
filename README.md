@@ -34,5 +34,5 @@ reyNaftali - X
 </br>
 omerAmsalem - X
 </br>
-barRachmany - X
+barRachmany - V
 </br>
