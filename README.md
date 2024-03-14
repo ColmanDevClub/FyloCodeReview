@@ -28,7 +28,7 @@ talLevi - V
 </br>
 yoavFridman - X
 </br>
-eyarGdolov - X
+eyarGdolov - V -> Alon/Margol check me before send.
 </br>
 reyNaftali - X
 </br>
