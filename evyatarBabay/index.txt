@@ -31,8 +31,9 @@ document.getElementById('uplBtn').onclick = () =>{ //upload button clicking
     for (let i = 0; i < multiFilesInput.files.length; i++) {
         currentFilesSize += multiFilesInput.files[i].size
     }
-    storageUsage+=currentFilesSize
-    sizeAvailable-=currentFilesSize
+    console.log(currentFilesSize + "Current file size")
+    storageUsage+=parseInt(currentFilesSize)
+    sizeAvailable-=parseInt(currentFilesSize)
     updateStorage();
     multiFilesInput.value= ""; // resets file explorer after using the files selected
     document.getElementById('count').innerHTML ="";
@@ -42,6 +43,7 @@ document.getElementById('uplBtn').onclick = () =>{ //upload button clicking
 updateStorage();
 
 function updateStorage(){
+    console.log((storageUsage/totalSize*100).toFixed(0) + " Progress bar percent")
     let progressBarPercent = (storageUsage/totalSize*100).toFixed(0)
     let span = document.createElement('span')
     span.innerText = "MB left"
@@ -57,11 +59,11 @@ function localSave(){
 }
 function localLoad(){
     if(localStorage.getItem("sizeLeft") != 'undefined'){
-    sizeAvailable = localStorage.getItem("sizeLeft");
+    sizeAvailable =parseInt( localStorage.getItem("sizeLeft"));
     }else
     sizeAvailable = totalSize;
     if(localStorage.getItem("storageUse") != 'undefined'){
-    storageUsage = localStorage.getItem("storageUse");
+    storageUsage =parseInt( localStorage.getItem("storageUse"));
     }else
     storageUsage = 0;
 }
