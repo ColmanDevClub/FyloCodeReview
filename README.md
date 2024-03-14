@@ -52,7 +52,7 @@ omerElias - X
 </br>
 roniTwito - X
 </br>
-galLevi - X
+galLevi - V
 </br>
 oriAbulafia - X
 </br>
