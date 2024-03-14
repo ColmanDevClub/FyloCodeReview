@@ -42,7 +42,7 @@ noaVinkler - X
 </br>
 oriJoseph - X
 </br>
-danielIzhaki - X
+danielIzhaki - V
 </br>
 nofarMahani - X
 </br>
