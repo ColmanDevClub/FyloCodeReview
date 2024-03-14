@@ -2,7 +2,7 @@
 
 amosZohar - X
 </br>
-benda - V -> Alon/Margol check me(idan) before send.
+benda - V
 </br>
 davidArnfled - X
 </br>
@@ -28,7 +28,7 @@ talLevi - V
 </br>
 yoavFridman - X
 </br>
-eyarGdolov - V -> Alon/Margol check me(idan) before send.
+eyarGdolov - V
 </br>
 reyNaftali - X
 </br>
