@@ -28,3 +28,9 @@ talLevi - V
 </br>
 yoavFridman - X
 </br>
+eyarGdolov - X
+</br>
+reyNaftali - X
+</br>
+omerAmsalem - X
+</br>
