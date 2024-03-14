@@ -1,6 +1,7 @@
 var totalDiskSpace = 10; // in MB
 var currentSpace = 0;
 var files = {}; // Store file names and their sizes
+var allowedFormats = ['.jpg', '.jpeg', '.gif', '.png']; // Allowed file formats
 
 function openFileExplorer() {
     var input = document.createElement('input');
@@ -13,7 +14,13 @@ function openFileExplorer() {
             var file = newFiles[i];
             var fileName = file.name;
             var fileSizeMB = file.size / (1024 * 1024);
-            
+
+            var fileExtension = fileName.split('.').pop().toLowerCase();
+            if (!allowedFormats.includes('.' + fileExtension)) {
+                alert('File format isn’t supported: ' + fileName);
+                continue; 
+            }
+
             if (!files[fileName]) {
                 if ((currentSpace + fileSizeMB) <= totalDiskSpace) {
                     files[fileName] = fileSizeMB;
