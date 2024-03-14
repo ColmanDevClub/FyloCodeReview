@@ -32,7 +32,7 @@ eyarGdolov - V -> Alon/Margol check me(idan) before send.
 </br>
 reyNaftali - X
 </br>
-omerAmsalem - X
+omerAmsalem - V
 </br>
 barRachmany - V
 </br>
