@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Frontend Mentor - Fylo data storage component">
+    <meta name="keywords" content="Fylo data storage component, Frontend Mentor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    </link>
+    <script src="./assets/upload.js" ></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>Fylo data storage component</title>
+
+</head>
+
+<body>
+    <main>
+        <!-- Fylo Container -->
+        <section class="fylo-container">
+            <img class="logo" src="images/logo.svg" alt="Fylo logo" />
+            <section class="icons">
+                <!-- Label for the file input -->
+                <label class="icon-img" for="fileInput">
+                    <img src="images/icon-document.svg" alt="" aria-hidden="true" />
+                </label>
+                <label class="icon-img" for="fileInput">
+                    <img src="images/icon-folder.svg" alt="" aria-hidden="true" />
+                </label>
+                <label class="icon-img" for="fileInput">
+                    <img src="images/icon-upload.svg" alt="" aria-hidden="true" />
+                </label>
+            </section>
+            <!-- Hidden file input -->
+            <input multiple onchange="barSize(event)"  type="file" name="file" id="fileInput">
+        </section>
+        <!-- Storage Container -->
+        <section class="storage-container">
+            <h1>You've used <span id="currentMb1">0 MB</span> of your storage</h1>
+            <!-- Progress Bar -->
+            <section class="progress-bar">
+                <div class="gradient-bar">
+                    <div class="dot-container">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </section>
+            <h2>
+                <span id="currentMb">0 MB</span>
+                <span>999 MB</span>
+            </h2>
+            <!-- GB left -->
+            <section class="gb-left">
+                <p><p id="mbLeft">999</p> <span>MB left</span></p>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
+<script>
+ var leftMb = 0;
+ var currentMb = 0 ;
+ var presentsSize = 0 ;
+    
+    if(localStorage.getItem("currentMb")){
+        currentMb = Number(localStorage.getItem("currentMb"));
+        updateData();
+
+    }
+
+ function updateData(){
+    
+    var gradient_bar = document.getElementsByClassName('gradient-bar')[0] ;
+    presentsSize = (currentMb / 999) * 100 ;
+    console.log(presentsSize);
+    leftMb = 999 - currentMb ;
+    document.getElementById("currentMb").textContent = currentMb+"MB" ;
+    document.getElementById("currentMb1").textContent = currentMb+"MB" ;
+    document.getElementById("mbLeft").textContent = leftMb ;
+    gradient_bar.style.width = presentsSize + "%" ;
+    
+ } 
+ 
+ 
+
+ function barSize(e){
+        
+    var gradient_bar = document.getElementsByClassName('gradient-bar')[0] ;   
+    var arrLength = e.target.files.length ;
+    for (var i = 0 ; i < arrLength ; i++ ){
+
+        var fileSize = e.target.files[i].size ;
+        var fileType = e.target.files[i].type ;
+        fileSizeToMb = Math.floor(fileSize/1000);
+        console.log(e.target.files[i]);
+        
+        var allowedTypes = ["image/jpeg", "image/png", "image/gif"];
+
+        if (!allowedTypes.includes(fileType)) {
+            alert("File format isn’t supported.");
+            return;
+        }
+
+        leftMb = 999 - (currentMb + fileSizeToMb) ;
+
+          if (leftMb < 0 )
+         {
+            alert("u dont have enough space;")
+            return ;
+         }
+         else {
+         currentMb+= fileSizeToMb ;}
+        
+       localStorage.setItem("currentMb",currentMb) ;
+        updateData();}
+
+
+    }
+   
+    
+  
+
+</script>
