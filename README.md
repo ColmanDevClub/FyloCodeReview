@@ -36,3 +36,23 @@ omerAmsalem - V
 </br>
 barRachmany - V
 </br>
+ofekWorecl - X
+</br>
+noaVinkler - X
+</br>
+oriJoseph - X
+</br>
+danielIzhaki - X
+</br>
+nofarMahani - X
+</br>
+noaGedo - X
+</br>
+omerElias - X
+</br>
+roniTwito - X
+</br>
+galLevi - X
+</br>
+oriAbulafia - X
+</br>
