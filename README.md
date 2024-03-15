@@ -40,7 +40,7 @@ ofekWorecl - עוז
 </br>
 noaVinkler - עוז
 </br>
-oriJoseph - שני ימין
+oriJoseph - V
 </br>
 danielIzhaki - V
 </br>
