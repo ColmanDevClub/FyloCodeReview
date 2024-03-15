@@ -58,7 +58,7 @@ oriAbulafia - V
 </br>
 avitalRubichi - יובל אופק
 </br>
-yossiZrihen - יובל אופק
+yossiZrihen - V
 </br>
 morAlmakayes - גיל הלר
 </br>
