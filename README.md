@@ -46,7 +46,7 @@ danielIzhaki - V
 </br>
 nofarMahani - V
 </br>
-noaGedo - שני ימין
+noaGedo - V
 </br>
 omerElias - שני ימין
 </br>
