@@ -14,7 +14,7 @@ idanBenGavriel - V אלון מנשרי
 </br>
 inonEl - V אלון מנשרי
 </br>
-liorHassin - גיל הלר
+liorHassin - V
 </br>
 natiPorish - V
 </br>
