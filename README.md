@@ -44,7 +44,7 @@ oriJoseph - X
 </br>
 danielIzhaki - V
 </br>
-nofarMahani - X
+nofarMahani - V
 </br>
 noaGedo - X
 </br>
