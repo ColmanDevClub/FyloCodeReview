@@ -48,7 +48,7 @@ nofarMahani - V
 </br>
 noaGedo - V
 </br>
-omerElias - שני ימין
+omerElias - v
 </br>
 roniTwito - V
 </br>
