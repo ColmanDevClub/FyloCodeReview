@@ -60,5 +60,5 @@ avitalRubichi - V
 </br>
 yossiZrihen - V
 </br>
-morAlmakayes - גיל הלר
+morAlmakayes - V
 </br>
