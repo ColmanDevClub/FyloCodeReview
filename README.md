@@ -50,13 +50,13 @@ noaGedo - שני ימין
 </br>
 omerElias - שני ימין
 </br>
-roniTwito - יובל אופק
+roniTwito - V
 </br>
 galLevi - V
 </br>
 oriAbulafia - V
 </br>
-avitalRubichi - יובל אופק
+avitalRubichi - V
 </br>
 yossiZrihen - V
 </br>
