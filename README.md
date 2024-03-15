@@ -26,19 +26,19 @@ shirYahav - דניאל מרגול
 </br>
 talLevi - V
 </br>
-yoavFridman - עוז
+yoavFridman - V
 </br>
 eyarGdolov - V
 </br>
-reyNaftali - עוז
+reyNaftali - V
 </br>
 omerAmsalem - V
 </br>
 barRachmany - V
 </br>
-ofekWorecl - עוז
+ofekWorecl - V
 </br>
-noaVinkler - עוז
+noaVinkler - V
 </br>
 oriJoseph - V
 </br>
