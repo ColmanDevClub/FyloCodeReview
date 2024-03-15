@@ -54,7 +54,7 @@ roniTwito - X
 </br>
 galLevi - V
 </br>
-oriAbulafia - X
+oriAbulafia - V
 </br>
 avitalRubichi - X
 </br>
