@@ -10,9 +10,9 @@ evyatarBabay - V
 </br>
 hinoy - בר שושני
 </br>
-idanBenGavriel - אלון מנשרי
+idanBenGavriel - V אלון מנשרי
 </br>
-inonEl - אלון מנשרי
+inonEl - V אלון מנשרי
 </br>
 liorHassin - גיל הלר
 </br>
@@ -62,4 +62,3 @@ yossiZrihen - V
 </br>
 morAlmakayes - גיל הלר
 </br>
-
