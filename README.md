@@ -1,65 +1,65 @@
 # FyloCodeReview
 
-amosZohar - X
+amosZohar - בר שושני
 </br>
 benda - V
 </br>
-davidArnfled - X
+davidArnfled - בר שושני
 </br>
 evyatarBabay - V
 </br>
-hinoy - X
+hinoy - בר שושני
 </br>
-idanBenGavriel - X
+idanBenGavriel - אלון מנשרי
 </br>
-inonEl - X
+inonEl - אלון מנשרי
 </br>
-liorHassin - X
+liorHassin - גיל הלר
 </br>
-natiPorish - X
+natiPorish - גיל הלר
 </br>
-orenLevi - X
+orenLevi - דניאל מרגול
 </br>
 rotemNissim - V
 </br>
-shirYahav - X
+shirYahav - דניאל מרגול
 </br>
 talLevi - V
 </br>
-yoavFridman - X
+yoavFridman - עוז
 </br>
 eyarGdolov - V
 </br>
-reyNaftali - X
+reyNaftali - עוז
 </br>
 omerAmsalem - V
 </br>
 barRachmany - V
 </br>
-ofekWorecl - X
+ofekWorecl - עוז
 </br>
-noaVinkler - X
+noaVinkler - עוז
 </br>
-oriJoseph - X
+oriJoseph - שני ימין
 </br>
 danielIzhaki - V
 </br>
 nofarMahani - V
 </br>
-noaGedo - X
+noaGedo - שני ימין
 </br>
-omerElias - X
+omerElias - שני ימין
 </br>
-roniTwito - X
+roniTwito - יובל אופק
 </br>
 galLevi - V
 </br>
 oriAbulafia - V
 </br>
-avitalRubichi - X
+avitalRubichi - יובל אופק
 </br>
-yossiZrihen - X
+yossiZrihen - יובל אופק
 </br>
-morAlmakayes - X
+morAlmakayes - גיל הלר
 </br>
 
