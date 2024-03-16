@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Frontend Mentor - Fylo data storage component">
+    <meta name="keywords" content="Fylo data storage component, Frontend Mentor">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    </link>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <title>Fylo data storage component</title>
+    <script src="project2.js"></script>
+</head>
+
+<body>
+    <main>
+        <!--Fylo Container -->
+        <section class="fylo-container">
+            <img class="logo" src="images/logo.svg" alt="Fylo logo" />
+            <section class="icons">
+                <div class="icon-img">
+                    <button id = "documentButton" class="imageDocumentButton">
+                        <img src="images/icon-document.svg" alt="" aria-hidden="true"  />
+                    </button>
+                </div>
+                <div class="icon-img">
+                    <button onclick="importData()" class="imageUpladFile">
+                    <img src="images/icon-folder.svg" alt="" aria-hidden="true" />
+                </button>
+                </div>
+                <div class="icon-img">
+                    <button class="Imagefile">
+                    <img src="images/icon-upload.svg" alt="" aria-hidden="true" />
+                </button>
+                </div>
+            </section>
+        </section>
+        <!-- Storage Container -->
+        <section class="storage-container">
+            <h1>You've used <span id ="restMem">0 MB</span> of your storage</h1>
+            <div id="fileNamesContainer">
+
+            </div>
+            <!-- Progress Bar -->
+            <section class="progress-bar">
+                <div class="gradient-bar" id="gradientBar">
+                    <div class="dot-container">
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </section>
+            <h2>
+                <span id="sizeText">0 MB</span>
+                <span>10 MB</span>
+            </h2>
+            <!-- GB left -->
+            <section class="gb-left">
+                <p id="remaningSize">10 <span>GB left</span></p>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
