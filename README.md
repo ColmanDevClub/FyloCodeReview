@@ -1,14 +1,14 @@
 # FyloCodeReview
 
-amosZohar - בר שושני
+amosZohar - V 
 </br>
 benda - V
 </br>
-davidArnfled - בר שושני
+davidArnfled - V 
 </br>
 evyatarBabay - V
 </br>
-hinoy - בר שושני
+hinoy - V 
 </br>
 idanBenGavriel - V
 </br>
@@ -18,11 +18,11 @@ liorHassin - V
 </br>
 natiPorish - V
 </br>
-orenLevi - דניאל מרגול
+orenLevi - V 
 </br>
 rotemNissim - V
 </br>
-shirYahav - דניאל מרגול
+shirYahav - V 
 </br>
 talLevi - V
 </br>
