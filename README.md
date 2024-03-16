@@ -10,9 +10,9 @@ evyatarBabay - V
 </br>
 hinoy - בר שושני
 </br>
-idanBenGavriel - V אלון מנשרי
+idanBenGavriel - V
 </br>
-inonEl - V אלון מנשרי
+inonEl - V
 </br>
 liorHassin - V
 </br>
